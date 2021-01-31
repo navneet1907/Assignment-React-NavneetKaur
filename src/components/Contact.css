@@ -1,0 +1,34 @@
+
+
+
+.Contact::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.Contact img {
+  float: left;
+  margin-right: 1px;
+}
+
+
+.Contact span {
+  color: black;
+  font-size: 15px;
+  margin-right: 1px;
+}
+
+
+@media (max-width: 400px) {
+  .Contact {
+    text-align: center;
+  }
+
+  .Contact img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
