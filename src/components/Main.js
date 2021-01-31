@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+
 import Contact from "./Contact";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -10,8 +11,8 @@ import { FaRupeeSign } from "react-icons/fa";
 import AccordionNew from "./AccordionDetails";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Form from "react-bootstrap/Form";
-import "./newinput.css";
-import Newform from "./newform";
+import "./input.css";
+import Newform from "./form";
 
 //import { useAccordionToggle } from 'react-bootstrap/AccordionToggle';
 
@@ -54,7 +55,7 @@ function CardComponent() {
           <h5
             style={{
               fontSize: "17px",
-              padding: "3px"
+              padding: "2px"
             }}
           >
             Honda City

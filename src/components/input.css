@@ -1,107 +1,20 @@
-.field {
-  width: 100%;
-  height: 56px;
-  
-  border: 2px solid #dce2dc;
-  position: relative;
-  background-color: rgba(255, 255, 255, 0.3);
-  transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out;
+.input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: grey
 }
-
-.field:hover {
-  background-color: rgba(255, 255, 255, 0.45);
-  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
-}
-
-.field.active {
-  background-color: #ffffff;
-  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+.input:focus {
   border: 2px solid #4b6bdb;
   color: #4b6bdb;
 }
-
-.field.active input {
-  padding: 24px 16px 8px 16px;
+.Button:active{
+  border: 2px solid #cfdaf7;
+  color: #cfdaf7;
 }
-
-.field.active input + label {
-  top: 4px;
-  opacity: 1;
-  color: #4b6bdb;
-}
-
-.field.locked {
-  pointer-events: none;
-}
-
-.field input {
-  width: 100%;
-  height: 56px;
-  position: relative;
-  padding:26px;
-  border: 2px #4b6bdb;
-  border-radius: 2px #4b6bdb;
-  font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: normal;
-  background-color: transparent;
-  color: #282828;
-  outline: none;
-  box-shadow: 0px 4px 20px 0px transparent;
-  transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out,
-    0.1s padding ease-in-out;
-  -webkit-appearance: none;
-}
-
-.field input::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.8);
-}
-.field input::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.8);
-}
-.field input:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.8);
-}
-.field input:-moz-placeholder {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.field input + label {
-  position: absolute;
-  top: 24px;
-  left: 16px;
-  font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 24px;
-  color: #4b6bdb;
-  opacity: 0;
-  pointer-events: none;
-  transition: 0.1s all ease-in-out;
-}
-
-.field input + label.error {
-  color: #ec392f;
-}
-
-.field p.predicted {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-
-  opacity: 1;
-  pointer-events: none;
-}
-input {
-  outline: 0;
-  border-width: 0 0 2px;
-  border-color: blue
-}
-input:focus {
-  border-color: green
+.Button{
+  background-color:#fafcfd;
+  color:grey;
+  border-radius: 500px;
+  -web-kit-border-radius: 500px;
+  padding:10px;
 }
